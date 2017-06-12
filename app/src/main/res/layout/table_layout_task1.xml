@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kontynentyyy"
+                android:id="@+id/imageView2"
+                android:adjustViewBounds="true" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+
+
+        <TextView
+            android:text="Parametry"
+            android:padding="8dp"
+            android:gravity="left"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:text="naszej"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10" />
+
+        <TextView
+            android:text="Ziemi"
+            android:gravity="right"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/holo_red_dark"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Obwód"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:text="40 075 km"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:text="Ludność"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:text="7,2 mld"/>
+            </TableRow>
+
+            <TableRow
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:text="Promień"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:text="6 371 km"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:text="Dane"/>
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:text="dane"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:layout_column="2"
+                    android:padding="8dp"
+                    android:text="Promień"/>
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:layout_column="2"
+                    android:padding="8dp"
+                    android:text="6 371 km"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
