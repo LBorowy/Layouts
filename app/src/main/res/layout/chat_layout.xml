@@ -66,14 +66,15 @@
         android:background="@color/colorPrimary">
 
 
-        <TextView
+        <EditText
             android:background="@android:color/white"
             android:padding="8dp"
             android:layout_margin="4dp"
             android:hint="Napisz wiadomość..."
-            android:layout_width="269dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/writeText"
+            android:layout_weight="1"
+            android:id="@+id/messageEditText"
             />
 
         <ImageView
